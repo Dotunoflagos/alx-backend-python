@@ -6,7 +6,5 @@ floor use to mat.floor to return int
 
 
 def floor(n: float) -> int:
-    """
-    use to mat.floor to return int
-    """
+    """Returns the floor of a float as an integer."""
     return math.floor(n)

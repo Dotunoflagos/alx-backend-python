@@ -5,7 +5,7 @@ sum use of float
 from typing import List
 
 
-def sum_list(imput_list: List[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     sum use of float
     """

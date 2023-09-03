@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-import math
 """
 floor: use to mat.floor to return int
 """
+import math
+
 
 
 def floor(n: float) -> int:

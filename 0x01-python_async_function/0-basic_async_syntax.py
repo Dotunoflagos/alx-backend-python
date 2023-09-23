@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-
-import asyncio
-import random
 """
 concat
 """
+import asyncio
+import random
 
-async def wait_random(max_delay=10):
-    if not isinstance(max_delay, (int, float)):
-        raise ValueError("max_delay should be an integer or a float")
 
+async def wait_random(max_delay: int=10):
+    """
+    concat
+    """
     delay = random.uniform(0, max_delay)  # Generate a random float delay
     await asyncio.sleep(delay)
     return delay
